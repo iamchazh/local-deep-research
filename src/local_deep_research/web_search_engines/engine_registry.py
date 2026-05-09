@@ -122,6 +122,14 @@ ENGINE_REGISTRY: Dict[str, EngineEntry] = {
         module_path=".engines.search_engine_semantic_scholar",
         class_name="SemanticScholarSearchEngine",
     ),
+    "philpapers": EngineEntry(
+        module_path=".engines.search_engine_philpapers",
+        class_name="PhilPapersSearchEngine",
+    ),
+    "sep": EngineEntry(
+        module_path=".engines.search_engine_sep",
+        class_name="SEPSearchEngine",
+    ),
     # --- Engines from defaults/settings_*.json (added in #1540) ---
     "gutenberg": EngineEntry(
         module_path=".engines.search_engine_gutenberg",

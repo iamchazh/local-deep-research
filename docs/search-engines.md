@@ -46,6 +46,18 @@ result = quick_summary(
 - **Results**: Paper summaries with citation context
 - **Rate Limit**: Moderate - adaptive rate limiting handles this
 
+#### Stanford Encyclopedia of Philosophy (SEP)
+- **Specialization**: Expert encyclopedia entries in philosophy
+- **Best for**: Canonical background on philosophy topics
+- **Results**: SEP entry titles, snippets, canonical entry URLs
+- **Integration note**: Uses SEP's official web search endpoint (`plato.stanford.edu/search/searcher.py`)
+
+#### PhilPapers
+- **Specialization**: Philosophy papers, bibliographies, and references
+- **Best for**: Scholarly philosophy literature discovery
+- **Results**: PhilPapers records with title, snippet, canonical rec URL, and source metadata
+- **Integration note**: Uses PhilPapers public search endpoint; no API key required for this adapter
+
 ### General Purpose
 
 #### Wikipedia

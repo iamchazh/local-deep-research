@@ -1,0 +1,19 @@
+{
+  "search.engine.web.philpapers": {
+    "category": "philpapers",
+    "description": "PhilPapers search engine configuration",
+    "editable": false,
+    "name": "PhilPapers Search Engine",
+    "type": "SEARCH",
+    "ui_element": "json",
+    "value": {
+      "requires_api_key": false,
+      "requires_llm": true,
+      "description": "Search PhilPapers using the public search endpoint",
+      "reliability": 0.93
+    },
+    "visible": false
+  },
+  "search.engine.web.philpapers.display_name": {"category":"philpapers","description":"Display name","editable":false,"name":"Display Name","type":"SEARCH","ui_element":"text","value":"PhilPapers","visible":false},
+  "search.engine.web.philpapers.use_in_auto_search": {"category":"philpapers","description":"Include PhilPapers in auto search mode","editable":true,"name":"Include in Auto Search","type":"SEARCH","ui_element":"checkbox","value":true,"visible":true}
+}

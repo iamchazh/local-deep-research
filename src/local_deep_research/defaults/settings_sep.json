@@ -1,0 +1,19 @@
+{
+  "search.engine.web.sep": {
+    "category": "sep",
+    "description": "SEP search engine configuration",
+    "editable": false,
+    "name": "SEP Search Engine",
+    "type": "SEARCH",
+    "ui_element": "json",
+    "value": {
+      "requires_api_key": false,
+      "requires_llm": true,
+      "description": "Search the Stanford Encyclopedia of Philosophy via its official search page",
+      "reliability": 0.95
+    },
+    "visible": false
+  },
+  "search.engine.web.sep.display_name": {"category":"sep","description":"Display name","editable":false,"name":"Display Name","type":"SEARCH","ui_element":"text","value":"Stanford Encyclopedia of Philosophy","visible":false},
+  "search.engine.web.sep.use_in_auto_search": {"category":"sep","description":"Include SEP in auto search mode","editable":true,"name":"Include in Auto Search","type":"SEARCH","ui_element":"checkbox","value":true,"visible":true}
+}
